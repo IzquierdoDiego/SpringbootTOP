@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c40a32e-45d8-478d-9f1e-b034a6c62200" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/src/main/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/src/main/java/com/luv2code/springboot/demo/mycoolapp/rest/FunRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/01-dev-tools-demo/src/test/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/src/main/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/src/main/java/com/luv2code/springboot/demo/mycoolapp/rest/FunRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-actuaro-security/src/test/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/src/main/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/src/main/java/com/luv2code/springboot/demo/mycoolapp/rest/FunRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pring-boot-overview/02-comman-line/src/test/java/com/luv2code/springboot/demo/mycoolapp/MycoolappApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/main/java/com/diego/constructorinjection2/ConstructorInjection2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/main/java/com/diego/constructorinjection2/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/main/java/com/diego/constructorinjection2/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/main/java/com/diego/constructorinjection2/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/02-component-scanning/src/test/java/com/diego/constructorinjection2/ConstructorInjection2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/main/java/com/diego/constructorinjection2/ConstructorInjection2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/main/java/com/diego/constructorinjection2/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/main/java/com/diego/constructorinjection2/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/main/java/com/diego/constructorinjection2/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/03-getter-injection/src/test/java/com/diego/constructorinjection2/ConstructorInjection2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/SpringcoredemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/common/BaseballCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/common/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/common/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/common/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/common/TrackCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/java/com/luv2code/springcoredemo/rest/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/07-bean-scopes/src/test/java/com/luv2code/springcoredemo/SpringcoredemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/main/java/com/diego/constructorinjection2/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/main/java/com/diego/constructorinjection2/ConstructorInjection2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/main/java/com/diego/constructorinjection2/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/main/java/com/diego/constructorinjection2/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-pring-boot-core/constructorInjection2/src/test/java/com/diego/constructorinjection2/ConstructorInjection2ApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2drt1PZxpdZZH1v9mqCKp4BSi5I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/diegofid/Documents/cursos/spring boot/proyectos_curso/SpringbootTOP"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c40a32e-45d8-478d-9f1e-b034a6c62200" name="Changes" comment="" />
+      <created>1710777808807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710777808807</updated>
+    </task>
+    <servers />
+  </component>
+</project>
