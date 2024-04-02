@@ -23,10 +23,25 @@ public class CruddemoApplication {
 			//createStudent(studentDAO);
 			//findById(studentDAO,3);
 			//readAllStudent(studentDAO);
-			findByLastName(studentDAO);
+			//findByLastName(studentDAO);
+			//updateStudent(studentDAO);
+			//deleteStudent(studentDAO);
+			deleteAll(studentDAO);
 			//createMultipleStudents(studentDAO);
 
 		};
+	}
+
+	private void deleteAll(StudentDAO studentDAO) {
+		System.out.println(studentDAO.deleteAll());
+	}
+
+	private void deleteStudent(StudentDAO studentDAO) {
+		System.out.println(studentDAO.deleteStudent(3));
+	}
+
+	private void updateStudent(StudentDAO studentDAO) {
+		System.out.println(studentDAO.changeFirtName("Antonio", 4));
 	}
 
 	private void findByLastName(StudentDAO studentDAO) {

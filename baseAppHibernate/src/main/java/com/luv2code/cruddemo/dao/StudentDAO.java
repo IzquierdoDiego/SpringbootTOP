@@ -14,5 +14,9 @@ public interface StudentDAO {
 
     List<Student> fibdByLastName(String theLastName);
 
+    Student changeFirtName(String newName, Integer i);
 
+    int deleteStudent(Integer id);
+
+    int deleteAll();
 }
