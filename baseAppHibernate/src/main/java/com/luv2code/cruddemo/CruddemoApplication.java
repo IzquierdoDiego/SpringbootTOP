@@ -20,14 +20,14 @@ public class CruddemoApplication {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO) { //7 is injecting student as we dont need the global variable just injects without create it
 
 		return runner -> {
+			createMultipleStudents(studentDAO);
 			//createStudent(studentDAO);
 			//findById(studentDAO,3);
 			//readAllStudent(studentDAO);
 			//findByLastName(studentDAO);
-			//updateStudent(studentDAO);
+			updateStudent(studentDAO);
 			//deleteStudent(studentDAO);
-			deleteAll(studentDAO);
-			//createMultipleStudents(studentDAO);
+			//deleteAll(studentDAO);
 
 		};
 	}
@@ -41,7 +41,7 @@ public class CruddemoApplication {
 	}
 
 	private void updateStudent(StudentDAO studentDAO) {
-		System.out.println(studentDAO.changeFirtName("Antonio", 4));
+		System.out.println(studentDAO.changeFirtName("Antonio", 14));
 	}
 
 	private void findByLastName(StudentDAO studentDAO) {
