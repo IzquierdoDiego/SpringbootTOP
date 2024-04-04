@@ -3,7 +3,7 @@ package com.luv2code.springboot.cruddemo.dao;
 import com.luv2code.springboot.cruddemo.entity.Employee;
 
 import java.util.List;
-
+ // no more used
 public interface EmployeeDAO {
 
     List<Employee> findAll();
