@@ -19,8 +19,21 @@ public class DemoSecurityConfig {
     @Bean
     public UserDetailsManager userDetailsManager(DataSource dataSource) {
 
-        return new JdbcUserDetailsManager(dataSource);  // tell spring sec to use database to authenticate
+
+        JdbcUserDetailsManager jdbcUserDetailsManager = new JdbcUserDetailsManager(dataSource);
+
+        // define query to retrieve a user by username
+        jdbcUserDetailsManager.setUsersByUsernameQuery(
+                "select user_id, pw, active from members where user_id=?"); // ? will be the user from login 
+
+        // define query to retrieve the authorities/roles by username
+        jdbcUserDetailsManager.setAuthoritiesByUsernameQuery("select user_id, role from roles where user_id=?");
+
+        return jdbcUserDetailsManager;
+        //return new JdbcUserDetailsManager(dataSource);  // tell spring sec to use database to authenticate using defults table names
     }
+
+
 
 
     @Bean
